@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>4274702463</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\Debug\Exe\msp430_sx126x.ulp</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\msp430_sx126x.d43</file>
+            <file>$TOOLKIT_DIR$\config\linker\lnk430g2553.xcl</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+            <file>$PROJ_DIR$\Debug\List\msp430_sx126x.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\msp430_sx126x.pbd</file>
+            <file>$PROJ_DIR$\Debug\Exe\msp430_sx126x.txt</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.h</file>
+            <file>$TOOLKIT_DIR$\inc\msp430g2553.h</file>
+            <file>$TOOLKIT_DIR$\inc\in430.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+            <file>$PROJ_DIR$\sx126x\boards\delay-board.h</file>
+            <file>$PROJ_DIR$\sx126x\radio\radio.h</file>
+            <file>$PROJ_DIR$\sx126x\system\spi.h</file>
+            <file>$PROJ_DIR$\sx126x\boards\sx126x-board.h</file>
+            <file>$PROJ_DIR$\sx126x\boards\board.h</file>
+            <file>$PROJ_DIR$\sx126x\boards\pinName-board.h</file>
+            <file>$PROJ_DIR$\sx126x\system\timer.h</file>
+            <file>$PROJ_DIR$\sx126x\boards\spi-board.h</file>
+            <file>$PROJ_DIR$\sx126x\boards\pinName-ioe.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stddef.h</file>
+            <file>$PROJ_DIR$\sx126x\system\gpio.h</file>
+            <file>$PROJ_DIR$\sx126x\boards\utilities.h</file>
+            <file>$PROJ_DIR$\sx126x\boards\gpio-board.h</file>
+            <file>$PROJ_DIR$\lora\lora.c</file>
+            <file>$PROJ_DIR$\sx126x\system\timer.c</file>
+            <file>$PROJ_DIR$\lora\lora.h</file>
+            <file>$PROJ_DIR$\sx126x\system\delay.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.__cstat.et</file>
+            <file>$PROJ_DIR$\sx126x\boards\rtc-board.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sx126x.pbi</file>
+            <file>$PROJ_DIR$\sx126x\radio\sx126x\radio.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\radio.pbi</file>
+            <file>$PROJ_DIR$\sx126x\radio\sx126x\sx126x.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\xtgmath.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\math.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+            <file>$PROJ_DIR$\sx126x\radio\sx126x\sx126x.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\radio.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\sx126x.r43</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdbool.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ymath.h</file>
+            <file>$PROJ_DIR$\sx126x\system\delay.c</file>
+            <file>$PROJ_DIR$\sx126x\system\gpio.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.r43</file>
+            <file>$PROJ_DIR$\sx126x\boards\mcu\spi-board.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi-board.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\sx1262-board.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi-board.pbi</file>
+            <file>$PROJ_DIR$\sx126x\boards\mcu\board-config.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sx1262-board.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lora.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.pbi</file>
+            <file>$PROJ_DIR$\sx126x\boards\mcu\sx1262-board.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\lora.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\sx1262-board.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\lora.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\radio.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\sx126x.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi-board.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.r43</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 4</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 2</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50 15 23 19 21 22 13 39 17 18 40 3 12 20 14 16</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 18 19 3 23 15 12 14 17 13 22 16 21 20 39 50 40</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\msp430_sx126x.d43</name>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 6 2 7</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 11 8</file>
+                </tool>
+                <tool>
+                    <name>ULP430</name>
+                    <file> 0</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\msp430_sx126x.txt</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 8</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 6 59 71 67 2 52 61 62 53 80 7</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\lora\lora.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34 46 40 12 50 54 21 28 25 27 14 16 32 19 3 15 49 30 23 64 22 17 13 35 29 18 33 20 48 26 55 39 47</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 39 49 15 12 14 17 13 22 16 21 28 50 35 34 29 32 40 18 19 3 30 33 54 25 23 20 46 48 55 47 26 64 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sx126x\system\timer.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 80</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15 50 16 12 14 35 22 17 13 28 42 30 54 33 21</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 35 50 15 12 14 17 13 22 16 28 42 54 30 33 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sx126x\radio\sx126x\radio.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 55 50 28 21 32 34 40 12 15 19 48 35 46 13 49 30 25 27 18 47 22 17 33 26 14 16 54 3 29</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 48 15 55 12 14 17 13 22 16 47 49 21 35 50 30 33 54 40 18 19 3 25 46 34 29 32 26 27 28</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sx126x\radio\sx126x\sx126x.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15 17 54 40 21 22 50 19 34 30 27 13 12 3 32 35 25 46 14 16 33 55 49 18 48 26 47 29</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 49 15 12 14 17 13 22 16 21 35 50 30 33 54 25 40 18 19 3 46 48 55 47 34 29 32 26 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sx126x\system\delay.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 16 3 19 15 14 12 18 40 50 22 17 13 24</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 24 50 15 12 14 17 13 22 16 40 18 19 3</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sx126x\system\gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 71</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12 29 18 21 64 23 34 50 32 15 14 16 19 36 22 17 13 3 20</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 36 34 50 15 12 14 17 13 22 16 29 32 64 18 19 3 23 21 20</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sx126x\boards\mcu\spi-board.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 77</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50 34 13 15 28 31 12 22 17 35 29 14 16 32 26</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 35 50 15 12 14 17 13 22 16 28 34 29 32 31 26</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sx126x\boards\mcu\sx1262-board.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12 35 40 14 16 18 15 29 64 27 22 19 50 48 47 28 25 21 17 13 3 54 26 65 46 34 55 32</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 65 15 12 14 17 13 22 16 21 35 50 64 28 40 18 19 3 25 54 27 46 48 55 47 34 29 32 26</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

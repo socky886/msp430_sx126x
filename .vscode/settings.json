@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "board-config.h": "c",
+        "utilities.h": "c"
+    }
+}

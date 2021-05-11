@@ -1,0 +1,2562 @@
+################################################################################
+#                                                                              #
+#      IAR Universal Linker V6.5.1.95                                          #
+#                                                                              #
+#           Link time     =  11/May/2021  23:11:29                             #
+#           Target CPU    =  MSP430                                            #
+#           List file     =  E:\semtech\fortune\msp430\msp430_sx126x\Debug\Lis #
+#                            t\msp430_sx126x.map                               #
+#           Output file 1 =  E:\semtech\fortune\msp430\msp430_sx126x\Debug\Exe #
+#                            \msp430_sx126x.txt                                #
+#                            Format: msp430_txt                                #
+#           Command line  =  -f                                                #
+#                            C:\Users\junfeng\AppData\Local\Temp\EWA3B4.tmp    #
+#                            (E:\semtech\fortune\msp430\msp430_sx126x\Debug\Ob #
+#                            j\delay.r43                                       #
+#                            E:\semtech\fortune\msp430\msp430_sx126x\Debug\Obj #
+#                            \gpio.r43                                         #
+#                            E:\semtech\fortune\msp430\msp430_sx126x\Debug\Obj #
+#                            \lora.r43                                         #
+#                            E:\semtech\fortune\msp430\msp430_sx126x\Debug\Obj #
+#                            \main.r43                                         #
+#                            E:\semtech\fortune\msp430\msp430_sx126x\Debug\Obj #
+#                            \radio.r43                                        #
+#                            E:\semtech\fortune\msp430\msp430_sx126x\Debug\Obj #
+#                            \spi-board.r43                                    #
+#                            E:\semtech\fortune\msp430\msp430_sx126x\Debug\Obj #
+#                            \sx1262-board.r43                                 #
+#                            E:\semtech\fortune\msp430\msp430_sx126x\Debug\Obj #
+#                            \sx126x.r43                                       #
+#                            E:\semtech\fortune\msp430\msp430_sx126x\Debug\Obj #
+#                            \timer.r43                                        #
+#                            -o                                                #
+#                            E:\semtech\fortune\msp430\msp430_sx126x\Debug\Exe #
+#                            \msp430_sx126x.txt                                #
+#                            -Fmsp430_txt -l                                   #
+#                            E:\semtech\fortune\msp430\msp430_sx126x\Debug\Lis #
+#                            t\msp430_sx126x.map                               #
+#                            -xms                                              #
+#                            "-ID:\IAR Systems\Embedded Workbench 8.0\430\LIB\ #
+#                            "                                                 #
+#                            -f                                                #
+#                            "D:\IAR Systems\Embedded Workbench 8.0\430\config #
+#                            \linker\lnk430g2553.xcl"                          #
+#                            (-cmsp430 -QCODE_I=CODE_ID -QTLS16_I=TLS16_ID     #
+#                            -Z(CONST)INFO=1000-10FF                           #
+#                            -Z(CONST)INFOA=10C0-10FF                          #
+#                            -Z(CONST)INFOB=1080-10BF                          #
+#                            -Z(CONST)INFOC=1040-107F                          #
+#                            -Z(CONST)INFOD=1000-103F                          #
+#                            -Z(DATA)DATA16_I,DATA16_Z,DATA16_N,TLS16_I=0200-0 #
+#                            3FF                                               #
+#                            -Z(DATA)DATA16_HEAP+_DATA16_HEAP_SIZE             #
+#                            -Z(DATA)CODE_I -Z(DATA)CSTACK+_STACK_SIZE#        #
+#                            -Z(CONST)DATA16_C,DATA16_ID,TLS16_ID,DIFUNCT,CHEC #
+#                            KSUM=C000-FFDD                                    #
+#                            -Z(CODE)CSTART,ISR_CODE,CODE_ID=C000-FFDD         #
+#                            -P(CODE)CODE=C000-FFDD                            #
+#                            -Z(CONST)SIGNATURE=FFDE-FFDF                      #
+#                            -Z(CODE)INTVEC=FFE0-FFFF                          #
+#                            -Z(CODE)RESET=FFFE-FFFF) -D_STACK_SIZE=50         #
+#                            "D:\IAR Systems\Embedded Workbench 8.0\430\lib\dl #
+#                            ib\dl430fn.r43"                                   #
+#                            -e_PrintfLarge=_Printf -e_ScanfLarge=_Scanf       #
+#                            -D_DATA16_HEAP_SIZE=50 -s __program_start         #
+#                            -D_DATA20_HEAP_SIZE=50)                           #
+#                                                                              #
+#                           Copyright (C) 1987-2016 IAR Systems AB.            #
+################################################################################
+
+
+
+
+
+                ****************************************
+                *                                      *
+                *           CROSS REFERENCE            *
+                *                                      *
+                ****************************************
+
+       Program entry at :           C1A2  Relocatable, from module : ?cstart
+
+
+
+
+                ****************************************
+                *                                      *
+                *            RUNTIME MODEL             *
+                *                                      *
+                ****************************************
+
+  __Heap_Handler             = Basic
+  __SystemLibrary            = DLib
+  __core                     = 430
+  __dlib_file_descriptor     = 0
+  __dlib_full_locale_support = 0
+  __double_size              = 32
+  __pic                      = no
+  __reg_r4                   = free
+  __reg_r5                   = free
+  __rt_version               = 3
+
+                ****************************************
+                *                                      *
+                *    AUTOMATIC SYMBOL REDIRECTIONS     *
+                *                                      *
+                ****************************************
+
+                  There are no automatic symbol redirections.
+
+
+
+                ****************************************
+                *                                      *
+                *              MODULE MAP              *
+                *                                      *
+                ****************************************
+
+
+  DEFINED ABSOLUTE ENTRIES
+    *************************************************************************
+
+  DEFINED ABSOLUTE ENTRIES
+  PROGRAM MODULE, NAME : ?ABS_ENTRY_MOD
+
+Absolute parts
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _DATA20_HEAP_SIZE       0050 
+           _DATA16_HEAP_SIZE       0050 
+           _STACK_SIZE             0050 
+    *************************************************************************
+
+  FILE NAME : E:\semtech\fortune\msp430\msp430_sx126x\Debug\Obj\delay.r43
+    *************************************************************************
+
+  FILE NAME : E:\semtech\fortune\msp430\msp430_sx126x\Debug\Obj\gpio.r43
+  PROGRAM MODULE, NAME : gpio
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_AN
+  Relative segment, address: 0020 - 0020 (0x1 bytes), align: 0
+  Segment part 1. ROOT        Intra module refs:   GpioRead
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           P1IN                    0020 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0021 - 0021 (0x1 bytes), align: 0
+  Segment part 2. ROOT        Intra module refs:   GpioToggle
+                                                   GpioWrite
+                                                   Gpio_Init (main)
+                                                   main (main)
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           P1OUT                   0021 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0028 - 0028 (0x1 bytes), align: 0
+  Segment part 3. ROOT        Intra module refs:   GpioRead
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           P2IN                    0028 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0029 - 0029 (0x1 bytes), align: 0
+  Segment part 4. ROOT        Intra module refs:   GpioWrite
+                                                   Gpio_Init (main)
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           P2OUT                   0029 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F27E - F2A5 (0x28 bytes), align: 1
+  Segment part 12.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GpioInit                F27E            SX126xAntSwOff (sx1262-board)
+                                                   SX126xAntSwOn (sx1262-board)
+                                                   SX126xIoInit (sx1262-board)
+                                                   SpiInit (spi-board)
+                                                   packet_init (lora)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F85C - F85D (0x2 bytes), align: 1
+  Segment part 14.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GpioSetInterrupt        F85C            SX126xIoIrqInit (sx1262-board)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: D8C2 - D9CB (0x10a bytes), align: 1
+  Segment part 11.            Intra module refs:   GpioInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GpioWrite               D8C2            SX126xReadBuffer (sx1262-board)
+                                                   SX126xReadCommand (sx1262-board)
+                                                   SX126xReadRegisters (sx1262-board)
+                                                   SX126xReset (sx1262-board)
+                                                   SX126xWakeup (sx1262-board)
+                                                   SX126xWriteBuffer (sx1262-board)
+                                                   SX126xWriteCommand (sx1262-board)
+                                                   SX126xWriteRegisters (sx1262-board)
+                                                   SpiInOut (spi-board)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E636 - E69B (0x66 bytes), align: 1
+  Segment part 16.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GpioToggle              E636            packet_tx (lora)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: EB8E - EBDF (0x52 bytes), align: 1
+  Segment part 17.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GpioRead                EB8E            SX126xGetDio1PinState (sx1262-board)
+                                                   SX126xWaitOnBusy (sx1262-board)
+                                                   SpiInOut (spi-board)
+               calls direct
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: C0BA - C0D7 (0x1e bytes), align: 0
+  Segment part 6.             Intra module refs:   GpioInit
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: C0D8 - C0EA (0x13 bytes), align: 0
+  Segment part 7.             Intra module refs:   GpioRead
+                                                   GpioToggle
+                                                   GpioWrite
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: C0EB - C0F6 (0xc bytes), align: 0
+  Segment part 8.             Intra module refs:   GpioWrite
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: C0F7 - C103 (0xd bytes), align: 0
+  Segment part 9.             Intra module refs:   GpioToggle
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: C104 - C10E (0xb bytes), align: 0
+  Segment part 10.            Intra module refs:   GpioRead
+
+    *************************************************************************
+
+  FILE NAME : E:\semtech\fortune\msp430\msp430_sx126x\Debug\Obj\lora.r43
+  PROGRAM MODULE, NAME : lora
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_I
+  Relative segment, address: 0200 - 0200 (0x1 bytes), align: 0
+  Segment part 16.            Intra module refs:   packet_tx
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           BufferSize              0200 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 032E - 034D (0x20 bytes), align: 0
+  Segment part 18.            Intra module refs:   packet_tx
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Buffer                  032E 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 0202 - 0213 (0x12 bytes), align: 1
+  Segment part 19.            Intra module refs:   packet_init
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           RadioEvents             0202 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 0214 - 0221 (0xe bytes), align: 1
+  Segment part 20.            Intra module refs:   packet_init
+                                                   packet_tx
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Led1                    0214 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 0222 - 022F (0xe bytes), align: 1
+  Segment part 21.            Intra module refs:   packet_init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Led2                    0222 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: DABA - DB83 (0xca bytes), align: 1
+  Segment part 27.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           packet_init             DABA            main (main)
+               calls direct and indirect
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: DD0A - DDBF (0xb6 bytes), align: 1
+  Segment part 28.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           packet_tx               DD0A            main (main)
+               calls direct and indirect
+    -------------------------------------------------------------------------
+DATA16_ID
+  Relative segment, address: C1A0 - C1A0 (0x1 bytes), align: 0
+  Segment part 17.            Intra module refs:   BufferSize
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: C10F - C128 (0x1a bytes), align: 0
+  Segment part 2.             Intra module refs:   packet_tx
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: C129 - C13B (0x13 bytes), align: 0
+  Segment part 3.             Intra module refs:   packet_tx
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: C13C - C145 (0xa bytes), align: 0
+  Segment part 4.             Intra module refs:   packet_tx
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: C146 - C157 (0x12 bytes), align: 0
+  Segment part 5.             Intra module refs:   packet_tx
+
+    *************************************************************************
+
+  FILE NAME : E:\semtech\fortune\msp430\msp430_sx126x\Debug\Obj\main.r43
+  PROGRAM MODULE, NAME : main
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_AN
+  Relative segment, address: 0003 - 0003 (0x1 bytes), align: 0
+  Segment part 1. ROOT        Intra module refs:   UartPutchar
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           IFG2                    0003 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0056 - 0056 (0x1 bytes), align: 0
+  Segment part 2. ROOT        Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DCOCTL                  0056 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0057 - 0057 (0x1 bytes), align: 0
+  Segment part 3. ROOT        Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           BCSCTL1                 0057 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0022 - 0022 (0x1 bytes), align: 0
+  Segment part 5. ROOT        Intra module refs:   Gpio_Init
+                                                   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           P1DIR                   0022 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0026 - 0026 (0x1 bytes), align: 0
+  Segment part 6. ROOT        Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           P1SEL                   0026 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0041 - 0041 (0x1 bytes), align: 0
+  Segment part 7. ROOT        Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           P1SEL2                  0041 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 002A - 002A (0x1 bytes), align: 0
+  Segment part 9. ROOT        Intra module refs:   Gpio_Init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           P2DIR                   002A 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0061 - 0061 (0x1 bytes), align: 0
+  Segment part 10. ROOT       Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCA0CTL1                0061 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0062 - 0062 (0x1 bytes), align: 0
+  Segment part 11. ROOT       Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCA0BR0                 0062 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0063 - 0063 (0x1 bytes), align: 0
+  Segment part 12. ROOT       Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCA0BR1                 0063 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0064 - 0064 (0x1 bytes), align: 0
+  Segment part 13. ROOT       Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCA0MCTL                0064 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0066 - 0066 (0x1 bytes), align: 0
+  Segment part 14. ROOT 
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCA0RXBUF               0066 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0067 - 0067 (0x1 bytes), align: 0
+  Segment part 15. ROOT       Intra module refs:   UartPutchar
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCA0TXBUF               0067 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0120 - 0121 (0x2 bytes), align: 0
+  Segment part 16. ROOT       Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           WDTCTL                  0120 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 10FC - 10FC (0x1 bytes), align: 0
+  Segment part 17. ROOT       Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           CALDCO_8MHZ             10FC 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 10FD - 10FD (0x1 bytes), align: 0
+  Segment part 18. ROOT       Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           CALBC1_8MHZ             10FD 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F200 - F229 (0x2a bytes), align: 1
+  Segment part 22.            Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Gpio_Init               F200 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F6C2 - F6D3 (0x12 bytes), align: 1
+  Segment part 24.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           putchar                 F6C2            _Prout (?xprout)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E564 - E5CD (0x6a bytes), align: 1
+  Segment part 25.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           main                    E564            Segment part 19 (?cstart)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F748 - F757 (0x10 bytes), align: 1
+  Segment part 23.            Intra module refs:   putchar
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UartPutchar             F748 
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: C158 - C172 (0x1b bytes), align: 0
+  Segment part 20.            Intra module refs:   main
+
+    *************************************************************************
+
+  FILE NAME : E:\semtech\fortune\msp430\msp430_sx126x\Debug\Obj\radio.r43
+  PROGRAM MODULE, NAME : radio
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_C
+  Relative segment, address: C173 - C17A (0x8 bytes), align: 0
+  Segment part 2.             Intra module refs:   RadioSetRxConfig
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: C17B - C182 (0x8 bytes), align: 0
+  Segment part 3.             Intra module refs:   RadioSetTxConfig
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: C000 - C035 (0x36 bytes), align: 1
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Radio                   C000            packet_init (lora)
+                                                   packet_tx (lora)
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: C036 - C0B9 (0x84 bytes), align: 1
+  Segment part 5.             Intra module refs:   RadioGetFskBandwidthRegValue
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           FskBandwidths           C036 
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: C183 - C185 (0x3 bytes), align: 0
+  Segment part 6.             Intra module refs:   RadioSetRxConfig
+                                                   RadioSetTxConfig
+                                                   RadioTimeOnAir
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Bandwidths              C183 
+    -------------------------------------------------------------------------
+DATA16_I
+  Relative segment, address: 0201 - 0201 (0x1 bytes), align: 0
+  Segment part 7.             Intra module refs:   RadioSetMaxPayloadLength
+                                                   RadioSetRxConfig
+                                                   RadioSetTxConfig
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           MaxPayloadLength        0201 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 0230 - 0233 (0x4 bytes), align: 1
+  Segment part 9.             Intra module refs:   RadioSend
+                                                   RadioSetTxConfig
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TxTimeout               0230 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 0234 - 0237 (0x4 bytes), align: 1
+  Segment part 10.            Intra module refs:   RadioRx
+                                                   RadioRxBoosted
+                                                   RadioSetRxConfig
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RxTimeout               0234 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 034E - 034E (0x1 bytes), align: 0
+  Segment part 11.            Intra module refs:   RadioIrqProcess
+                                                   RadioRx
+                                                   RadioRxBoosted
+                                                   RadioSetRxConfig
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RxContinuous            034E 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 0238 - 0249 (0x12 bytes), align: 1
+  Segment part 12.            Intra module refs:   RadioIrqProcess
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioPktStatus          0238 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 034F - 038E (0x40 bytes), align: 0
+  Segment part 13.            Intra module refs:   RadioIrqProcess
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioRxPayload          034F 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 038F - 038F (0x1 bytes), align: 0
+  Segment part 14.            Intra module refs:   RadioInit
+                                                   RadioIrqProcess
+                                                   RadioOnDioIrq
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           IrqFired                038F 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 0390 - 0391 (0x2 bytes), align: 0
+  Segment part 15.            Intra module refs:   RadioSetModem
+                                                   RadioSetPublicNetwork
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           RadioPublicNetwork      0390 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 024A - 024B (0x2 bytes), align: 1
+  Segment part 16.            Intra module refs:   RadioInit
+                                                   RadioIrqProcess
+                                                   RadioOnRxTimeoutIrq
+                                                   RadioOnTxTimeoutIrq
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           RadioEvents             024A 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 024C - 02FF (0xb4 bytes), align: 1
+  Segment part 17.            Intra module refs:   RadioSend
+                                                   RadioSetMaxPayloadLength
+                                                   RadioSetRxConfig
+                                                   RadioSetTxConfig
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126x                  024C            SX126xGetDio1PinState (sx1262-board)
+                                                   SX126xIoInit (sx1262-board)
+                                                   SX126xIoIrqInit (sx1262-board)
+                                                   SX126xReadBuffer (sx1262-board)
+                                                   SX126xReadCommand (sx1262-board)
+                                                   SX126xReadRegisters (sx1262-board)
+                                                   SX126xReset (sx1262-board)
+                                                   SX126xWaitOnBusy (sx1262-board)
+                                                   SX126xWakeup (sx1262-board)
+                                                   SX126xWriteBuffer (sx1262-board)
+                                                   SX126xWriteCommand (sx1262-board)
+                                                   SX126xWriteRegisters (sx1262-board)
+                                                   packet_init (lora)
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 0300 - 030F (0x10 bytes), align: 1
+  Segment part 18.            Intra module refs:   RadioInit
+                                                   RadioIrqProcess
+                                                   RadioSend
+                                                   RadioSetTxContinuousWave
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TxTimeoutTimer          0300 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 0310 - 031F (0x10 bytes), align: 1
+  Segment part 19.            Intra module refs:   RadioInit
+                                                   RadioIrqProcess
+                                                   RadioRx
+                                                   RadioRxBoosted
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RxTimeoutTimer          0310 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E7C0 - E81F (0x60 bytes), align: 1
+  Segment part 21.            Intra module refs:   RadioSetRxConfig
+                                                   RadioSetTxConfig
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           RadioGetFskBandwidthRegValue
+                                   E7C0 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E6FE - E75F (0x62 bytes), align: 1
+  Segment part 23.            Intra module refs:   Radio
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioInit               E6FE 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F318 - F33B (0x24 bytes), align: 1
+  Segment part 24.            Intra module refs:   Radio
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioGetStatus          F318 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F14C - F179 (0x2e bytes), align: 1
+  Segment part 26.            Intra module refs:   Radio
+                                                   RadioIsChannelFree
+                                                   RadioRandom
+                                                   RadioSetPublicNetwork
+                                                   RadioSetRxConfig
+                                                   RadioSetTxConfig
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioSetModem           F14C 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F854 - F857 (0x4 bytes), align: 1
+  Segment part 27.            Intra module refs:   Radio
+                                                   RadioIsChannelFree
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioSetChannel         F854 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: DE70 - DF19 (0xaa bytes), align: 1
+  Segment part 33.            Intra module refs:   Radio
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioIsChannelFree      DE70 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F1D4 - F1FF (0x2c bytes), align: 1
+  Segment part 34.            Intra module refs:   Radio
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioRandom             F1D4 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: CDE6 - CFFF (0x21a bytes), align: 1
+  Segment part 32.            Intra module refs:   Radio
+                                                   RadioIsChannelFree
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioSetRxConfig        CDE6 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: D000 - D1DD (0x1de bytes), align: 1
+  Segment part 35.            Intra module refs:   Radio
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioSetTxConfig        D000 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F838 - F83B (0x4 bytes), align: 1
+  Segment part 36.            Intra module refs:   Radio
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioCheckRfFrequency   F838 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E212 - E291 (0x80 bytes), align: 1
+  Segment part 37.            Intra module refs:   RadioTimeOnAir
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           RadioGetLoRaBandwidthInHz
+                                   E212 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: EA92 - EAE7 (0x56 bytes), align: 1
+  Segment part 38.            Intra module refs:   RadioTimeOnAir
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           RadioGetGfskTimeOnAirNumerator
+                                   EA92 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: D3A0 - D51D (0x17e bytes), align: 1
+  Segment part 39.            Intra module refs:   RadioTimeOnAir
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           RadioGetLoRaTimeOnAirNumerator
+                                   D3A0 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: DC48 - DD09 (0xc2 bytes), align: 1
+  Segment part 40.            Intra module refs:   Radio
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioTimeOnAir          DC48 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E87C - E8D7 (0x5c bytes), align: 1
+  Segment part 41.            Intra module refs:   Radio
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioSend               E87C 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F3EA - F409 (0x20 bytes), align: 1
+  Segment part 28.            Intra module refs:   Radio
+                                                   RadioIsChannelFree
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioSleep              F3EA 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F808 - F80D (0x6 bytes), align: 1
+  Segment part 31.            Intra module refs:   Radio
+                                                   RadioSetRxConfig
+                                                   RadioSetTxConfig
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioStandby            F808 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E98C - E9E3 (0x58 bytes), align: 1
+  Segment part 30.            Intra module refs:   Radio
+                                                   RadioIsChannelFree
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioRx                 E98C 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E9E4 - EA3B (0x58 bytes), align: 1
+  Segment part 42.            Intra module refs:   Radio
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioRxBoosted          E9E4 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F844 - F847 (0x4 bytes), align: 1
+  Segment part 43.            Intra module refs:   Radio
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioSetRxDutyCycle     F844 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E0FE - E18B (0x8e bytes), align: 1
+  Segment part 22.            Intra module refs:   RadioInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioAddRegisterToRetentionList
+                                   E0FE 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F61C - F62F (0x14 bytes), align: 1
+  Segment part 44.            Intra module refs:   Radio
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioStartCad           F61C 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: ED60 - EDA7 (0x48 bytes), align: 1
+  Segment part 45.            Intra module refs:   Radio
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioSetTxContinuousWave
+                                   ED60 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F7F2 - F7F9 (0x8 bytes), align: 1
+  Segment part 29.            Intra module refs:   Radio
+                                                   RadioIsChannelFree
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioRssi               F7F2 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F5B2 - F5C7 (0x16 bytes), align: 1
+  Segment part 46.            Intra module refs:   Radio
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioWrite              F5B2 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F848 - F84B (0x4 bytes), align: 1
+  Segment part 47.            Intra module refs:   Radio
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioRead               F848 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F582 - F599 (0x18 bytes), align: 1
+  Segment part 48.            Intra module refs:   Radio
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioWriteBuffer        F582 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F56A - F581 (0x18 bytes), align: 1
+  Segment part 49.            Intra module refs:   Radio
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioReadBuffer         F56A 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F0EC - F11B (0x30 bytes), align: 1
+  Segment part 50.            Intra module refs:   Radio
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioSetMaxPayloadLength
+                                   F0EC 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: EC30 - EC7D (0x4e bytes), align: 1
+  Segment part 25.            Intra module refs:   Radio
+                                                   RadioSetModem
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioSetPublicNetwork   EC30 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F7B8 - F7C3 (0xc bytes), align: 1
+  Segment part 51.            Intra module refs:   Radio
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioGetWakeupTime      F7B8 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F4B4 - F4CD (0x1a bytes), align: 1
+  Segment part 52.            Intra module refs:   RadioInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioOnTxTimeoutIrq     F4B4 
+               calls indirect
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F4CE - F4E7 (0x1a bytes), align: 1
+  Segment part 53.            Intra module refs:   RadioInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioOnRxTimeoutIrq     F4CE 
+               calls indirect
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F80E - F813 (0x6 bytes), align: 1
+  Segment part 54.            Intra module refs:   RadioInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioOnDioIrq           F80E 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: D1DE - D39F (0x1c2 bytes), align: 1
+  Segment part 55.            Intra module refs:   Radio
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RadioIrqProcess         D1DE 
+               calls direct and indirect
+    -------------------------------------------------------------------------
+DATA16_ID
+  Relative segment, address: C1A1 - C1A1 (0x1 bytes), align: 0
+  Segment part 8.             Intra module refs:   MaxPayloadLength
+
+    *************************************************************************
+
+  FILE NAME : E:\semtech\fortune\msp430\msp430_sx126x\Debug\Obj\spi-board.r43
+  PROGRAM MODULE, NAME : spi-board
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: EAE8 - EB3B (0x54 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SpiInit                 EAE8            packet_init (lora)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E18C - E211 (0x86 bytes), align: 1
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SpiInOut                E18C            SX126xReadBuffer (sx1262-board)
+                                                   SX126xReadCommand (sx1262-board)
+                                                   SX126xReadRegisters (sx1262-board)
+                                                   SX126xWakeup (sx1262-board)
+                                                   SX126xWriteBuffer (sx1262-board)
+                                                   SX126xWriteCommand (sx1262-board)
+                                                   SX126xWriteRegisters (sx1262-board)
+               calls direct
+
+    *************************************************************************
+
+  FILE NAME : E:\semtech\fortune\msp430\msp430_sx126x\Debug\Obj\sx1262-board.r43
+  PROGRAM MODULE, NAME : sx1262-board
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_Z
+  Relative segment, address: 0392 - 0392 (0x1 bytes), align: 0
+  Segment part 2.             Intra module refs:   SX126xGetOperatingMode
+                                                   SX126xSetOperatingMode
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           OperatingMode           0392 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 0320 - 032D (0xe bytes), align: 1
+  Segment part 3.             Intra module refs:   SX126xAntSwOff
+                                                   SX126xAntSwOn
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           AntPow                  0320 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E932 - E98B (0x5a bytes), align: 1
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xIoInit            E932            packet_init (lora)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F718 - F727 (0x10 bytes), align: 1
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xIoIrqInit         F718            SX126xInit (sx126x)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F85E - F85F (0x2 bytes), align: 1
+  Segment part 9.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xIoTcxoInit        F85E            SX126xInit (sx126x)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F7FA - F801 (0x8 bytes), align: 1
+  Segment part 10.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xGetBoardTcxoWakeupTime
+                                   F7FA            RadioGetWakeupTime (radio)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F802 - F807 (0x6 bytes), align: 1
+  Segment part 11.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xIoRfSwitchInit    F802            SX126xInit (sx126x)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F832 - F837 (0x6 bytes), align: 1
+  Segment part 12.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xGetOperatingMode
+                                   F832            RadioGetStatus (radio)
+                                                   RadioIrqProcess (radio)
+                                                   SX126xCheckDeviceReady (sx126x)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F814 - F819 (0x6 bytes), align: 1
+  Segment part 13.            Intra module refs:   SX126xWakeup
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetOperatingMode
+                                   F814            RadioIrqProcess (radio)
+                                                   SX126xInit (sx126x)
+                                                   SX126xSetCad (sx126x)
+                                                   SX126xSetRx (sx126x)
+                                                   SX126xSetRxBoosted (sx126x)
+                                                   SX126xSetRxDutyCycle (sx126x)
+                                                   SX126xSetSleep (sx126x)
+                                                   SX126xSetStandby (sx126x)
+                                                   SX126xSetTx (sx126x)
+                                                   SX126xSetTxContinuousWave (sx126x)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F056 - F089 (0x34 bytes), align: 1
+  Segment part 14.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xReset             F056            SX126xInit (sx126x)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F79E - F7AB (0xe bytes), align: 1
+  Segment part 15.            Intra module refs:   SX126xReadBuffer
+                                                   SX126xReadCommand
+                                                   SX126xReadRegisters
+                                                   SX126xWakeup
+                                                   SX126xWriteBuffer
+                                                   SX126xWriteCommand
+                                                   SX126xWriteRegisters
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xWaitOnBusy        F79E            SX126xCheckDeviceReady (sx126x)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: EF7C - EFB3 (0x38 bytes), align: 1
+  Segment part 16.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xWakeup            EF7C            SX126xCheckDeviceReady (sx126x)
+                                                   SX126xInit (sx126x)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E820 - E87B (0x5c bytes), align: 1
+  Segment part 17.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xWriteCommand      E820            SX126xCalibrateImage (sx126x)
+                                                   SX126xClearIrqStatus (sx126x)
+                                                   SX126xSetBufferBaseAddress (sx126x)
+                                                   SX126xSetCad (sx126x)
+                                                   SX126xSetDio2AsRfSwitchCtrl (sx126x)
+                                                   SX126xSetDioIrqParams (sx126x)
+                                                   SX126xSetLoRaSymbNumTimeout (sx126x)
+                                                   SX126xSetModulationParams (sx126x)
+                                                   SX126xSetPaConfig (sx126x)
+                                                   SX126xSetPacketParams (sx126x)
+                                                   SX126xSetPacketType (sx126x)
+                                                   SX126xSetRegulatorMode (sx126x)
+                                                   SX126xSetRfFrequency (sx126x)
+                                                   SX126xSetRx (sx126x)
+                                                   SX126xSetRxBoosted (sx126x)
+                                                   SX126xSetRxDutyCycle (sx126x)
+                                                   SX126xSetSleep (sx126x)
+                                                   SX126xSetStandby (sx126x)
+                                                   SX126xSetStopRxTimerOnPreambleDetect (sx126x)
+                                                   SX126xSetTx (sx126x)
+                                                   SX126xSetTxContinuousWave (sx126x)
+                                                   SX126xSetTxParams (sx126x)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E5CE - E635 (0x68 bytes), align: 1
+  Segment part 18.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xReadCommand       E5CE            SX126xGetIrqStatus (sx126x)
+                                                   SX126xGetPacketStatus (sx126x)
+                                                   SX126xGetRssiInst (sx126x)
+                                                   SX126xGetRxBufferStatus (sx126x)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E410 - E483 (0x74 bytes), align: 1
+  Segment part 19.            Intra module refs:   SX126xWriteRegister
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xWriteRegisters    E410            RadioAddRegisterToRetentionList (radio)
+                                                   RadioWriteBuffer (radio)
+                                                   SX126xSetCrcPolynomial (sx126x)
+                                                   SX126xSetCrcSeed (sx126x)
+                                                   SX126xSetSyncWord (sx126x)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F782 - F78F (0xe bytes), align: 1
+  Segment part 20.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xWriteRegister     F782            RadioIrqProcess (radio)
+                                                   RadioSetPublicNetwork (radio)
+                                                   RadioSetRxConfig (radio)
+                                                   RadioSetTxConfig (radio)
+                                                   RadioWrite (radio)
+                                                   SX126xGetRandom (sx126x)
+                                                   SX126xSetLoRaSymbNumTimeout (sx126x)
+                                                   SX126xSetRx (sx126x)
+                                                   SX126xSetRxBoosted (sx126x)
+                                                   SX126xSetTxParams (sx126x)
+                                                   SX126xSetWhiteningSeed (sx126x)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E312 - E391 (0x80 bytes), align: 1
+  Segment part 21.            Intra module refs:   SX126xReadRegister
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xReadRegisters     E312            RadioAddRegisterToRetentionList (radio)
+                                                   RadioReadBuffer (radio)
+                                                   SX126xGetRandom (sx126x)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F738 - F747 (0x10 bytes), align: 1
+  Segment part 22.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xReadRegister      F738            RadioIrqProcess (radio)
+                                                   RadioRead (radio)
+                                                   RadioSetRxConfig (radio)
+                                                   RadioSetTxConfig (radio)
+                                                   SX126xGetRandom (sx126x)
+                                                   SX126xGetRxBufferStatus (sx126x)
+                                                   SX126xSetTxParams (sx126x)
+                                                   SX126xSetWhiteningSeed (sx126x)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E69C - E6FD (0x62 bytes), align: 1
+  Segment part 23.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xWriteBuffer       E69C            SX126xSetPayload (sx126x)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E4F6 - E563 (0x6e bytes), align: 1
+  Segment part 24.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xReadBuffer        E4F6            SX126xGetPayload (sx126x)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F82C - F831 (0x6 bytes), align: 1
+  Segment part 25.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetRfTxPower      F82C            RadioSetTxConfig (radio)
+                                                   RadioSetTxContinuousWave (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F840 - F843 (0x4 bytes), align: 1
+  Segment part 26.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xGetDeviceId       F840            SX126xSetTxParams (sx126x)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F462 - F47D (0x1c bytes), align: 1
+  Segment part 27.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xAntSwOn           F462            SX126xCheckDeviceReady (sx126x)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F40A - F427 (0x1e bytes), align: 1
+  Segment part 28.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xAntSwOff          F40A            SX126xSetSleep (sx126x)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F790 - F79D (0xe bytes), align: 1
+  Segment part 30.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xGetDio1PinState   F790            RadioIrqProcess (radio)
+               calls direct
+
+    *************************************************************************
+
+  FILE NAME : E:\semtech\fortune\msp430\msp430_sx126x\Debug\Obj\sx126x.r43
+  PROGRAM MODULE, NAME : sx126x
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_Z
+  Relative segment, address: 0393 - 0393 (0x1 bytes), align: 0
+  Segment part 6.             Intra module refs:   SX126xGetPacketType
+                                                   SX126xSetModulationParams
+                                                   SX126xSetPacketParams
+                                                   SX126xSetPacketType
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PacketType              0393 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 0394 - 0394 (0x1 bytes), align: 0
+  Segment part 7.             Intra module refs:   SX126xGetRxBufferStatus
+                                                   SX126xSetPacketParams
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           LoRaHeaderType          0394 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 0395 - 0395 (0x1 bytes), align: 0
+  Segment part 8.             Intra module refs:   SX126xInit
+                                                   SX126xSetRfFrequency
+                                                   SX126xSetSleep
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ImageCalibrated         0395 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F17A - F1A7 (0x2e bytes), align: 1
+  Segment part 12.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xInit              F17A            RadioInit (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F428 - F445 (0x1e bytes), align: 1
+  Segment part 13.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xCheckDeviceReady
+                                   F428            SX126xReadBuffer (sx1262-board)
+                                                   SX126xReadCommand (sx1262-board)
+                                                   SX126xReadRegisters (sx1262-board)
+                                                   SX126xWriteBuffer (sx1262-board)
+                                                   SX126xWriteCommand (sx1262-board)
+                                                   SX126xWriteRegisters (sx1262-board)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F7E8 - F7F1 (0xa bytes), align: 1
+  Segment part 14.            Intra module refs:   SX126xSendPayload
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetPayload        F7E8 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F022 - F055 (0x34 bytes), align: 1
+  Segment part 16.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xGetPayload        F022            RadioIrqProcess (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F4E8 - F501 (0x1a bytes), align: 1
+  Segment part 18.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSendPayload       F4E8            RadioSend (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F6F8 - F707 (0x10 bytes), align: 1
+  Segment part 19.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetSyncWord       F6F8            RadioSetRxConfig (radio)
+                                                   RadioSetTxConfig (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F254 - F27D (0x2a bytes), align: 1
+  Segment part 20.            Intra module refs:   SX126xSetPacketParams
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetCrcSeed        F254 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F22A - F253 (0x2a bytes), align: 1
+  Segment part 21.            Intra module refs:   SX126xSetPacketParams
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetCrcPolynomial
+                                   F22A 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: ED16 - ED5F (0x4a bytes), align: 1
+  Segment part 22.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetWhiteningSeed
+                                   ED16            RadioSetRxConfig (radio)
+                                                   RadioSetTxConfig (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E292 - E311 (0x80 bytes), align: 1
+  Segment part 24.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xGetRandom         E292            RadioRandom (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: EBE0 - EC2F (0x50 bytes), align: 1
+  Segment part 25.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetSleep          EBE0            RadioSleep (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F2F2 - F317 (0x26 bytes), align: 1
+  Segment part 11.            Intra module refs:   SX126xGetRandom
+                                                   SX126xInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetStandby        F2F2            RadioInit (radio)
+                                                   RadioStandby (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: EF42 - EF7B (0x3a bytes), align: 1
+  Segment part 17.            Intra module refs:   SX126xSendPayload
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetTx             EF42 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: EDF0 - EE37 (0x48 bytes), align: 1
+  Segment part 23.            Intra module refs:   SX126xGetRandom
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetRx             EDF0            RadioRx (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: EDA8 - EDEF (0x48 bytes), align: 1
+  Segment part 27.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetRxBoosted      EDA8            RadioRxBoosted (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: EC7E - ECC9 (0x4c bytes), align: 1
+  Segment part 28.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetRxDutyCycle    EC7E            RadioSetRxDutyCycle (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F608 - F61B (0x14 bytes), align: 1
+  Segment part 29.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetCad            F608            RadioStartCad (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F67A - F68B (0x12 bytes), align: 1
+  Segment part 30.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetTxContinuousWave
+                                   F67A            RadioSetTxContinuousWave (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F6D4 - F6E5 (0x12 bytes), align: 1
+  Segment part 32.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetStopRxTimerOnPreambleDetect
+                                   F6D4            RadioSetRxConfig (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E484 - E4F5 (0x72 bytes), align: 1
+  Segment part 33.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetLoRaSymbNumTimeout
+                                   E484            RadioSetRxConfig (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F656 - F667 (0x12 bytes), align: 1
+  Segment part 34.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetRegulatorMode
+                                   F656            RadioInit (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E062 - E0FD (0x9c bytes), align: 1
+  Segment part 36.            Intra module refs:   SX126xSetRfFrequency
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xCalibrateImage    E062 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F3A8 - F3C9 (0x22 bytes), align: 1
+  Segment part 37.            Intra module refs:   SX126xSetTxParams
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetPaConfig       F3A8 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: EA3C - EA91 (0x56 bytes), align: 1
+  Segment part 39.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetDioIrqParams   EA3C            RadioInit (radio)
+                                                   RadioRandom (radio)
+                                                   RadioRx (radio)
+                                                   RadioRxBoosted (radio)
+                                                   RadioSend (radio)
+                                                   RadioStartCad (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F360 - F383 (0x24 bytes), align: 1
+  Segment part 40.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xGetIrqStatus      F360            RadioIrqProcess (radio)
+                                                   packet_tx (lora)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F6B0 - F6C1 (0x12 bytes), align: 1
+  Segment part 41.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetDio2AsRfSwitchCtrl
+                                   F6B0            SX126xIoRfSwitchInit (sx1262-board)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E8D8 - E931 (0x5a bytes), align: 1
+  Segment part 44.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetRfFrequency    E8D8            RadioSetChannel (radio)
+                                                   RadioSetTxContinuousWave (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F5C8 - F5DD (0x16 bytes), align: 1
+  Segment part 45.            Intra module refs:   SX126xSetModulationParams
+                                                   SX126xSetPacketParams
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetPacketType     F5C8            RadioSetModem (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F826 - F82B (0x6 bytes), align: 1
+  Segment part 46.            Intra module refs:   SX126xGetPacketStatus
+                                                   SX126xGetRxBufferStatus
+                                                   SX126xSetCrcPolynomial
+                                                   SX126xSetCrcSeed
+                                                   SX126xSetWhiteningSeed
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xGetPacketType     F826            RadioSend (radio)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: DFC0 - E061 (0xa2 bytes), align: 1
+  Segment part 47.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetTxParams       DFC0            RadioInit (radio)
+                                                   SX126xSetRfTxPower (sx1262-board)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: DB84 - DC47 (0xc4 bytes), align: 1
+  Segment part 48.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetModulationParams
+                                   DB84            RadioSetRxConfig (radio)
+                                                   RadioSetTxConfig (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: D9CC - DAB9 (0xee bytes), align: 1
+  Segment part 49.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetPacketParams   D9CC            RadioSend (radio)
+                                                   RadioSetMaxPayloadLength (radio)
+                                                   RadioSetRxConfig (radio)
+                                                   RadioSetTxConfig (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F502 - F51B (0x1a bytes), align: 1
+  Segment part 51.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xSetBufferBaseAddress
+                                   F502            RadioInit (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F2A6 - F2CB (0x26 bytes), align: 1
+  Segment part 53.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xGetRssiInst       F2A6            RadioRssi (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: EE80 - EEC3 (0x44 bytes), align: 1
+  Segment part 15.            Intra module refs:   SX126xGetPayload
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xGetRxBufferStatus
+                                   EE80 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: DF1A - DFBF (0xa6 bytes), align: 1
+  Segment part 54.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xGetPacketStatus   DF1A            RadioIrqProcess (radio)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F3CA - F3E9 (0x20 bytes), align: 1
+  Segment part 57.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SX126xClearIrqStatus    F3CA            RadioIrqProcess (radio)
+                                                   packet_tx (lora)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: E760 - E7BF (0x60 bytes), align: 1
+  Segment part 43.            Intra module refs:   SX126xSetModulationParams
+                                                   SX126xSetRfFrequency
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           SX126xConvertFreqInHzToPllStep
+                                   E760 
+               calls direct
+
+    *************************************************************************
+
+  FILE NAME : E:\semtech\fortune\msp430\msp430_sx126x\Debug\Obj\timer.r43
+  PROGRAM MODULE, NAME : timer
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F2CC - F2F1 (0x26 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TimerInit               F2CC            RadioInit (radio)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F85A - F85B (0x2 bytes), align: 1
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TimerStart              F85A            RadioRx (radio)
+                                                   RadioRxBoosted (radio)
+                                                   RadioSend (radio)
+                                                   RadioSetTxContinuousWave (radio)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F858 - F859 (0x2 bytes), align: 1
+  Segment part 7.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TimerStop               F858            RadioIrqProcess (radio)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F862 - F863 (0x2 bytes), align: 1
+  Segment part 9.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TimerSetValue           F862            RadioRx (radio)
+                                                   RadioRxBoosted (radio)
+                                                   RadioSend (radio)
+                                                   RadioSetTxContinuousWave (radio)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F81A - F81F (0x6 bytes), align: 1
+  Segment part 10.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TimerGetCurrentTime     F81A            RadioIsChannelFree (radio)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F820 - F825 (0x6 bytes), align: 1
+  Segment part 11.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TimerGetElapsedTime     F820            RadioIsChannelFree (radio)
+
+    *************************************************************************
+
+  FILE NAME : D:\IAR Systems\Embedded Workbench 8.0\430\lib\dlib\dl430fn.r43
+  LIBRARY MODULE, NAME : ?_exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F84C, align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _exit                   F84C            exit (?exit)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F84C - F84F (0x4 bytes), align: 1
+  Segment part 6.             Intra module refs:   _exit
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?cstart
+
+  SEGMENTS IN THE MODULE
+  ======================
+CSTACK
+  Relative segment, address: 03B0, align: 1
+  Segment part 1.
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 032E, align: 1
+  Segment part 2.
+    -------------------------------------------------------------------------
+DATA16_I
+  Relative segment, address: 0200, align: 1
+  Segment part 3.
+    -------------------------------------------------------------------------
+DATA16_ID
+  Relative segment, address: C1A0, align: 1
+  Segment part 4.
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: C1A2 - C1A5 (0x4 bytes), align: 1
+  Segment part 9.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __program_start         C1A2            ?reset_vector (?reset_vector)
+                                                   Absolute parts (?ABS_ENTRY_MOD)
+           ?cstart_begin           C1A2 
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: C1A6 - C1B1 (0xc bytes), align: 1
+  Segment part 14.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?cstart_init_zero       C1A6            AntPow (sx1262-board)
+                                                   Buffer (lora)
+                                                   ImageCalibrated (sx126x)
+                                                   IrqFired (radio)
+                                                   Led1 (lora)
+                                                   Led2 (lora)
+                                                   LoRaHeaderType (sx126x)
+                                                   OperatingMode (sx1262-board)
+                                                   PacketType (sx126x)
+                                                   RadioEvents (lora)
+                                                   RadioEvents (radio)
+                                                   RadioPktStatus (radio)
+                                                   RadioPublicNetwork (radio)
+                                                   RadioRxPayload (radio)
+                                                   RxContinuous (radio)
+                                                   RxTimeout (radio)
+                                                   RxTimeoutTimer (radio)
+                                                   SX126x (radio)
+                                                   TxTimeout (radio)
+                                                   TxTimeoutTimer (radio)
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: C1B2 - C1C1 (0x10 bytes), align: 1
+  Segment part 15.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?cstart_init_copy       C1B2            BufferSize (lora)
+                                                   MaxPayloadLength (radio)
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: C1C2 - C1C9 (0x8 bytes), align: 1
+  Segment part 19.            Intra module refs:   Segment part 9
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?cstart_call_main       C1C2 
+           ?cstart_end             C1CA 
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?reset_vector
+
+  SEGMENTS IN THE MODULE
+  ======================
+RESET
+  Relative segment, address: FFFE - FFFF (0x2 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?reset_vector           FFFE            Segment part 9 (?cstart)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?div64i
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: DDC0 - DE6F (0xb0 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _Div64u                 DDC0            _LitobLarge (?xprintflarge)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F550 - F569 (0x1a bytes), align: 1
+  Segment part 4.             Intra module refs:   _Div64u
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?div
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F5DE - F5F3 (0x16 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           div                     F5DE            _GenldLarge (?xprintflarge)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?Epilogue
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F6E6 - F6E7 (0x2 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?Epilogue8              F6E6            RadioGetLoRaTimeOnAirNumerator (radio)
+                                                   RadioIsChannelFree (radio)
+                                                   RadioSetRxConfig (radio)
+                                                   RadioSetTxConfig (radio)
+                                                   RadioTimeOnAir (radio)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F6E8 - F6E9 (0x2 bytes), align: 1
+  Segment part 1.             Intra module refs:   ?Epilogue8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?Epilogue7              F6E8 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F6EA - F6EB (0x2 bytes), align: 1
+  Segment part 2.             Intra module refs:   ?Epilogue7
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?Epilogue6              F6EA            _GenldLarge (?xprintflarge)
+                                                   _LdtobLarge (?xprintflarge)
+                                                   _LitobLarge (?xprintflarge)
+                                                   _PrintfLarge (?xprintflarge)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F6EC - F6ED (0x2 bytes), align: 1
+  Segment part 3.             Intra module refs:   ?Epilogue6
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?Epilogue5              F6EC            RadioSetTxContinuousWave (radio)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F6EE - F6EF (0x2 bytes), align: 1
+  Segment part 4.             Intra module refs:   ?Epilogue5
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?Epilogue4              F6EE            SX126xConvertFreqInHzToPllStep (sx126x)
+                                                   SX126xReadCommand (sx1262-board)
+                                                   SX126xWriteCommand (sx1262-board)
+                                                   SpiInOut (spi-board)
+                                                   _PutcharsLarge (?xprintflarge)
+                                                   pad (?xprintflarge)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F6F0 - F6F7 (0x8 bytes), align: 1
+  Segment part 5.             Intra module refs:   ?Epilogue4
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?Epilogue3              F6F0            RadioAddRegisterToRetentionList (radio)
+                                                   SX126xGetPayload (sx126x)
+                                                   SX126xReadBuffer (sx1262-board)
+                                                   SX126xReadRegisters (sx1262-board)
+                                                   SX126xSetLoRaSymbNumTimeout (sx126x)
+                                                   SX126xWriteBuffer (sx1262-board)
+                                                   SX126xWriteRegisters (sx1262-board)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F850 - F853 (0x4 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           exit                    F850            Segment part 19 (?cstart)
+               calls direct
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?Cast32f32i
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: E392 - E40F (0x7e bytes), align: 1
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _Cast32uto32f           E392            _LdtobLarge (?xprintflarge)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : _Cast32fto32u
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F7AC - F7B7 (0xc bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _Cast32fto32u           F7AC            _LdtobLarge (?xprintflarge)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?FLT_Extract
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: ECCA - ED15 (0x4c bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?FLT_Extract            ECCA            _Cast32fto32u (_Cast32fto32u)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?FLT_LT
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: EB3C - EB8D (0x52 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?FLT_LT                 EB3C            _LdtobLarge (?xprintflarge)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : _Mul32f
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: D7B2 - D8C1 (0x110 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _Mul32f                 D7B2            _LdtobLarge (?xprintflarge)
+                                                   scale (?xprintflarge)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : _Div32f
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: D682 - D7B1 (0x130 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _Div32f                 D682            _LdtobLarge (?xprintflarge)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : _Add32f
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: D51E - D521 (0x4 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _Sub32f                 D51E            _LdtobLarge (?xprintflarge)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: D522 - D681 (0x160 bytes), align: 1
+  Segment part 1.             Intra module refs:   _Sub32f
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _Add32f                 D522 
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?Mul816
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F08A - F08D (0x4 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?Mul8                   F08A            _LitobLarge (?xprintflarge)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F08E - F0BB (0x2e bytes), align: 1
+  Segment part 1.             Intra module refs:   ?Mul8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?Mul16                  F08E 
+           ?Mul16to32u             F08E            ?Mul16to32s (?Mul16to32s)
+                                                   RadioSetRxConfig (radio)
+                                                   RadioSetTxContinuousWave (radio)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?Mul16to32s
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F51C - F535 (0x1a bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?Mul16to32s             F51C            _LdtobLarge (?xprintflarge)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?Mul32
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F0BC - F0EB (0x30 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?Mul32                  F0BC            RadioGetLoRaTimeOnAirNumerator (radio)
+                                                   RadioTimeOnAir (radio)
+                                                   SX126xConvertFreqInHzToPllStep (sx126x)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?DivMod816u
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F59A - F5B1 (0x18 bytes), align: 1
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?DivMod16u              F59A            ?DivMod16s (?DivMod816s)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?DivMod816s
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F11C - F14B (0x30 bytes), align: 1
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?DivMod16s              F11C            div (?div)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?DivMod32u
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: EFB4 - EFEB (0x38 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?DivMod32u              EFB4            ?DivMod32s (?DivMod32s)
+                                                   RadioSetRxConfig (radio)
+                                                   RadioTimeOnAir (radio)
+                                                   SX126xConvertFreqInHzToPllStep (sx126x)
+                                                   SX126xSetModulationParams (sx126x)
+                                                   _LdtobLarge (?xprintflarge)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?DivMod32s
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: EEC4 - EF03 (0x40 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?DivMod32s              EEC4            RadioGetLoRaTimeOnAirNumerator (radio)
+                                                   _LdtobLarge (?xprintflarge)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?ShiftLeft16
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F7D0 - F7DB (0xc bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?ShiftLeft16            F7D0            RadioGetLoRaTimeOnAirNumerator (radio)
+                                                   SX126xSetLoRaSymbNumTimeout (sx126x)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?ShiftLeft32_n
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F49A - F49D (0x4 bytes), align: 1
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?ShiftLeft32_6          F49A            RadioRx (radio)
+                                                   RadioRxBoosted (radio)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F49E - F4A1 (0x4 bytes), align: 1
+  Segment part 2.             Intra module refs:   ?ShiftLeft32_6
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?ShiftLeft32_5          F49E 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F4A2 - F4A5 (0x4 bytes), align: 1
+  Segment part 3.             Intra module refs:   ?ShiftLeft32_5
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?ShiftLeft32_4          F4A2 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F4A6 - F4B3 (0xe bytes), align: 1
+  Segment part 4.             Intra module refs:   ?ShiftLeft32_4
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?ShiftLeft32_3          F4A6 
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?ShiftLeft32_8n
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F384 - F387 (0x4 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?ShiftLeft32_14         F384            SX126xConvertFreqInHzToPllStep (sx126x)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F388 - F38B (0x4 bytes), align: 1
+  Segment part 1.             Intra module refs:   ?ShiftLeft32_14
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?ShiftLeft32_13         F388 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F38C - F38F (0x4 bytes), align: 1
+  Segment part 2.             Intra module refs:   ?ShiftLeft32_13
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?ShiftLeft32_12         F38C 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F390 - F393 (0x4 bytes), align: 1
+  Segment part 3.             Intra module refs:   ?ShiftLeft32_12
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?ShiftLeft32_11         F390 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F394 - F397 (0x4 bytes), align: 1
+  Segment part 4.             Intra module refs:   ?ShiftLeft32_11
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?ShiftLeft32_10         F394 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F398 - F39B (0x4 bytes), align: 1
+  Segment part 5.             Intra module refs:   ?ShiftLeft32_10
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?ShiftLeft32_9          F398 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F39C - F3A7 (0xc bytes), align: 1
+  Segment part 6.             Intra module refs:   ?ShiftLeft32_9
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?ShiftLeft32_8          F39C 
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?ShiftRight16u_n
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F536 - F539 (0x4 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?ShiftRight16u_7        F536            __iar_Dunscale (?xdunscal)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F53A - F53D (0x4 bytes), align: 1
+  Segment part 1.             Intra module refs:   ?ShiftRight16u_7
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?ShiftRight16u_6        F53A 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F53E - F541 (0x4 bytes), align: 1
+  Segment part 2.             Intra module refs:   ?ShiftRight16u_6
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?ShiftRight16u_5        F53E 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F542 - F545 (0x4 bytes), align: 1
+  Segment part 3.             Intra module refs:   ?ShiftRight16u_5
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?ShiftRight16u_4        F542 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F546 - F54F (0xa bytes), align: 1
+  Segment part 4.             Intra module refs:   ?ShiftRight16u_4
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?ShiftRight16u_3        F546 
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?memchr
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F630 - F643 (0x14 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __iar_Memchr            F630            _PrintfLarge (?xprintflarge)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?memcpy
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F68C - F69D (0x12 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           memcpy                  F68C            Segment part 11 (?xprintflarge)
+                                                   _GenldLarge (?xprintflarge)
+                                                   _LdtobLarge (?xprintflarge)
+                                                   __data16_memcpy (?memzero)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?CopyMemoryBytes
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F708 - F717 (0x10 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?CopyMemoryBytes        F708            RadioSetRxConfig (radio)
+                                                   RadioSetTxConfig (radio)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?memset
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F668 - F679 (0x12 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           memset                  F668            SX126xGetPacketStatus (sx126x)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?memzero
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F728 - F737 (0x10 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __data16_memzero        F728            ?cstart_init_zero (?cstart)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F83C - F83F (0x4 bytes), align: 1
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __data16_memcpy         F83C            ?cstart_init_copy (?cstart)
+               calls direct
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?printf
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F446 - F461 (0x1c bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           printf                  F446            GpioInit (gpio)
+                                                   GpioRead (gpio)
+                                                   GpioToggle (gpio)
+                                                   GpioWrite (gpio)
+                                                   main (main)
+                                                   packet_tx (lora)
+               calls direct
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?strchr
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F766 - F773 (0xe bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __iar_Strchr            F766            _PrintfLarge (?xprintflarge)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?strlen
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F69E - F6AF (0x12 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           strlen                  F69E            _PrintfLarge (?xprintflarge)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?xdunscal
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: EE38 - EE7F (0x48 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __iar_Dunscale          EE38            _LdtobLarge (?xprintflarge)
+               calls direct
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?xprintflarge
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: C956 - CDE5 (0x490 bytes), align: 1
+  Segment part 18.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _PrintfLarge            C956            printf (?printf)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F7C4 - F7CF (0xc bytes), align: 1
+  Segment part 20.            Intra module refs:   _PrintfLarge
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F7DC - F7E7 (0xc bytes), align: 1
+  Segment part 22.            Intra module refs:   _PrintfLarge
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F5F4 - F607 (0x14 bytes), align: 1
+  Segment part 25.            Intra module refs:   _PrintfLarge
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: C1CA - C249 (0x80 bytes), align: 1
+  Segment part 8.             Intra module refs:   _PrintfLarge
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           LoadInt                 C1CA 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: C24A - C257 (0xe bytes), align: 1
+  Segment part 9.             Intra module refs:   LoadInt
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: C258 - C4B7 (0x260 bytes), align: 1
+  Segment part 10.            Intra module refs:   _LdtobLarge
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           _GenldLarge             C258 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: C4B8 - C4C7 (0x10 bytes), align: 1
+  Segment part 11.            Intra module refs:   _GenldLarge
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: C4C8 - C4E5 (0x1e bytes), align: 1
+  Segment part 12.            Intra module refs:   _GenldLarge
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: C4E6 - C537 (0x52 bytes), align: 1
+  Segment part 13.            Intra module refs:   _LdtobLarge
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           scale                   C4E6 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: C538 - C789 (0x252 bytes), align: 1
+  Segment part 14.            Intra module refs:   _PrintfLarge
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           _LdtobLarge             C538 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: C78A - C939 (0x1b0 bytes), align: 1
+  Segment part 15.            Intra module refs:   _PrintfLarge
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           _LitobLarge             C78A 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: C93A - C94B (0x12 bytes), align: 1
+  Segment part 16.            Intra module refs:   _LitobLarge
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: C94C - C955 (0xa bytes), align: 1
+  Segment part 17.            Intra module refs:   LoadInt
+                                                   _LitobLarge
+                                                   _PrintfLarge
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: EFEC - F021 (0x36 bytes), align: 1
+  Segment part 26.            Intra module refs:   Segment part 22
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           pad                     EFEC 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F33C - F35F (0x24 bytes), align: 1
+  Segment part 27.            Intra module refs:   _PrintfLarge
+                                                   _PutcharsLarge
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           _PutcharLarge           F33C 
+               calls indirect
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F1A8 - F1D3 (0x2c bytes), align: 1
+  Segment part 28.            Intra module refs:   Segment part 20
+                                                   pad
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           _PutcharsLarge          F1A8 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F758 - F765 (0xe bytes), align: 1
+  Segment part 19.            Intra module refs:   _PrintfLarge
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F774 - F781 (0xe bytes), align: 1
+  Segment part 21.            Intra module refs:   _PrintfLarge
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: F644 - F655 (0x12 bytes), align: 1
+  Segment part 23.            Intra module refs:   _PrintfLarge
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: EF04 - EF41 (0x3e bytes), align: 1
+  Segment part 24.            Intra module refs:   _PrintfLarge
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: C186 - C18C (0x7 bytes), align: 0
+  Segment part 2.             Intra module refs:   _PrintfLarge
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: C18D - C190 (0x4 bytes), align: 0
+  Segment part 3.             Intra module refs:   _LdtobLarge
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: C191 - C194 (0x4 bytes), align: 0
+  Segment part 4.             Intra module refs:   _LdtobLarge
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: C195 - C198 (0x4 bytes), align: 0
+  Segment part 5.             Intra module refs:   _LdtobLarge
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: C199 - C19C (0x4 bytes), align: 0
+  Segment part 6.             Intra module refs:   _LdtobLarge
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: C19D - C19E (0x2 bytes), align: 0
+  Segment part 7.             Intra module refs:   _GenldLarge
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?xprout
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F47E - F499 (0x1c bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _Prout                  F47E            printf (?printf)
+               calls direct
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?__exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: F860 - F861 (0x2 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __exit                  F860            Segment part 6 (?_exit)
+                                                   _exit (?_exit)
+
+
+
+
+                ****************************************
+                *                                      *
+                *      SEGMENTS IN ADDRESS ORDER       *
+                *                                      *
+                ****************************************
+
+
+SEGMENT              SPACE    START ADDRESS   END ADDRESS     SIZE  TYPE  ALIGN
+=======              =====    =============   ===========     ====  ====  =====
+DATA16_AN                              0003 - 0003               1   rel    0
+                                       0020 - 0022               3 
+                                       0026 - 0026               1 
+                                       0028 - 002A               3 
+                                       0041 - 0041               1 
+                                       0056 - 0057               2 
+                                       0061 - 0064               4 
+                                       0066 - 0067               2 
+                                       0120 - 0121               2 
+DATA16_I                               0200 - 0201               2   rel    1
+DATA16_Z                               0202 - 0395             194   rel    1
+CSTACK                                 03B0 - 03FF              50   rel    1
+DATA16_AN                              10FC - 10FD               2   rel    0
+DATA16_C                               C000 - C19E             19F   rel    1
+DATA16_ID                              C1A0 - C1A1               2   rel    1
+CSTART                                 C1A2 - C1C9              28   rel    1
+<CODE> 1                               C1CA - F863            369A   rel    1
+RESET                                  FFFE - FFFF               2   rel    1
+
+                ****************************************
+                *                                      *
+                *        END OF CROSS REFERENCE        *
+                *                                      *
+                ****************************************
+
+ 14 020 bytes of CODE  memory
+    486 bytes of DATA  memory (+ 21 absolute )
+    417 bytes of CONST memory
+
+Errors: none
+Warnings: none
+
